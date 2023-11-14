@@ -60,7 +60,8 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "E_M_S-Angular-Frontend:build:production"
+              "browserTarget": "E_M_S-Angular-Frontend:build:production",
+              "proxyConfig": "src/proxy.conf.json"
             },
             "development": {
               "browserTarget": "E_M_S-Angular-Frontend:build:development"
@@ -94,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "1da1d565-4614-42b8-af51-3296e236a0c6"
   }
 }
